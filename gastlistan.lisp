@@ -24,3 +24,6 @@ which it sometimes returns to normal string"
 
 (defun get-all-bars ()
   (get-all-hrefs "http://www.gastlistan.com/utestallen/search/city:Stockholm/clubType:Bar/extraTyp:all/date:all/hours:all"))
+
+(defun get-all-nightclubs ()
+  (get-all-hrefs "http://www.gastlistan.com/utestallen/search/city:Stockholm/clubType:Nattklubb/extraTyp:all/date:all/hours:all"))
